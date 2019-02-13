@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: padding-box;
+}
+
+html, body {
+  background-color: #F5CDA7;
+  height: 100%;
+}
+
+#content {
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
+  padding-bottom: 100px;
+}
+
+#left-content {
+  width: 50%;
+  padding-left: 50px;
+}
+
+#name-and-title {
+  margin: 0 0 20px 0;
+  text-align: center
+}
+
+#name-and-title
+
+h3 {
+  color: #EF8F69;
+}
+
+#right-content {
+  width: 50%;
+  float: right;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#right-content img {
+  border-radius: 50%;
+  border: 2px solid #EF8F69;
+}
+
+#left-content p {
+  margin: 10px 0;
+}
+
+.content-block {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #EF8F69;
+}
+
+h3 {
+  color: #75DBCD;
+}
+
+li {
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 10px 0 0;
+}
+
+li a:visited {
+  color: inherit;
+}
+
+.fa-linkedin-in {
+  color: #0077B5;
+}
+
+.fa-facebook-f {
+  color: #4267B2;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top: 5px solid #2CA4BF;
+  background-color: #415B90;
+}
+
+#footer p {
+  color: white;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  width: 30%;
+}
+
+thead {
+  width: 100%;
+  color: #75DBCD;
+}
